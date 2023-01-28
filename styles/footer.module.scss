@@ -38,6 +38,7 @@
                     @include fnt(var(--tc), 0.75rem, 800)
                 }
                 li{
+                    padding: 10px 0;
                     a{
                         @include fnt(var(--tc), 0.75rem, 500)
                     }

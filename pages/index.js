@@ -41,7 +41,7 @@ export default function Home() {
 
         <div className={styles.center}>
           <SectionOneHm />
-          {/* <SectionTwoAbt />         */}
+          <SectionTwoAbt />        
         </div>
         
         <div className={styles.heading}>

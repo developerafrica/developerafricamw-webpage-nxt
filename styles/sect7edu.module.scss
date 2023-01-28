@@ -26,6 +26,15 @@
             }
         }
         main{
+            .logos{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                svg{
+                    width: 40px;
+                }
+            }
             .text{
                 text-align: center;
                 @include fnt(var(--wt), 0.7rem, 500);
