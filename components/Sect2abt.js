@@ -1,5 +1,5 @@
-import styles from "../styles/Sect2abt.module.scss"
 import Image from "next/image"
+import styles from "../styles/Sect2abt.module.scss"
 export default function sectiontwo() {
   return (
     <article className={styles.abtcard}>

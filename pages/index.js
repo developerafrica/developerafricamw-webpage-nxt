@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 
 //custom imports
 import SectionOneHm from "/components/sect1hm.js"
-// import SectionTwoAbt from "/components/sect2abt.js"
+import SectionTwoAbt from "/components/Sect2abt.js"
 import SectionThreeCard from "/components/Sect3card.js"
 import SectionFourBanner from "/components/sect4banner.js"
 import SectionFiveContact from "/components/sect5cntct.js"
