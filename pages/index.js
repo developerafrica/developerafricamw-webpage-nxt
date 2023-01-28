@@ -4,13 +4,13 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
 //custom imports
-import SectionOneHm from "../components/sect1hm"
-import SectionTwoAbt from "../components/sect2abt"
-import SectionThreeCard from "../components/Sect3card"
-import SectionFourBanner from "../components/sect4banner"
-import SectionFiveContact from "../components/sect5cntct"
-import SectionSevenEdu  from "../components/sect7edu"
-import Footer  from "../components/footer"
+import SectionOneHm from "../components/sect1hm.js"
+import SectionTwoAbt from "../components/sect2abt.js"
+import SectionThreeCard from "../components/Sect3card.js"
+import SectionFourBanner from "../components/sect4banner.js"
+import SectionFiveContact from "../components/sect5cntct.js"
+import SectionSevenEdu  from "../components/sect7edu.js"
+import Footer  from "../components/footer.js"
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {

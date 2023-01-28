@@ -1,5 +1,5 @@
 import styles from "../styles/sect5cntct.module.scss"
-import Bussinesscard from "./bussinesscard"
+import Bussinesscard from "./bussinesscard.js"
 
 export default function sectionfive() {
   return (
