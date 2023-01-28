@@ -4,13 +4,13 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
 //custom imports
-// import SectionOneHm from "../components/sect1hm.js"
-// import SectionTwoAbt from "../components/sect2abt.js"
-// import SectionThreeCard from "../components/Sect3card.js"
-// import SectionFourBanner from "../components/sect4banner.js"
-// import SectionFiveContact from "../components/sect5cntct.js"
-// import SectionSevenEdu  from "../components/sect7edu.js"
-// import Footer  from "../components/footer.js"
+import SectionOneHm from "/components/sect1hm.js"
+import SectionTwoAbt from "/components/sect2abt.js"
+import SectionThreeCard from "/components/Sect3card.js"
+import SectionFourBanner from "/components/sect4banner.js"
+import SectionFiveContact from "/components/sect5cntct.js"
+import SectionSevenEdu  from "/components/sect7edu.js"
+import Footer  from "/components/footer.js"
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -39,10 +39,11 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <div className={styles.center}>
+        <div className={styles.center}>
           <SectionOneHm />
           <SectionTwoAbt />        
         </div>
+        
         <div className={styles.heading}>
           <h1>PROJECTS</h1>
         </div>
@@ -63,7 +64,7 @@ export default function Home() {
           <SectionSevenEdu />
           <Footer />
          
-        </div> */}
+        </div>
       </main>
     </>
   )
