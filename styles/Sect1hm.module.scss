@@ -1,0 +1,44 @@
+@mixin fnt($c,$s,$w){
+    color: $c;
+    font-size: $s;
+    font-weight: $w;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{
+
+    section{
+        padding: 20px;
+        .image{
+            padding: 10px;
+            .logo{
+                width: 350px;
+            }
+        }
+        .text{
+            margin: 20px 0;
+            border-left: #114311 solid 2px;
+            
+            h1{
+                padding-left: 20px;
+                display: flex;
+                text-align: start;
+                @include fnt(var(--tc), 0.9rem, 450);
+                flex-direction: column;
+            }
+        }
+        .link{
+            text-align: center;
+            padding: 10px 0;
+            a{
+                display: block;
+                background-color: #114311;
+                padding: 15px;
+                border-radius: 4px;
+                @include fnt(white, 0.75rem, 450);
+                letter-spacing: 1.1px;
+
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,31 @@
+
+@mixin fnt($c,$s,$w){
+    color: $c;
+    font-size: $s;
+    font-weight: $w;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner{
+    background: var(--gn);
+    margin: 5vh 0;
+    .artbn{
+        padding: 4vh 0;
+        background: url('/world.png');
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        p{
+            @include fnt(var(--wt), 0.8rem, 500);
+            padding: 20px;
+            
+        }
+        a{
+            @include fnt(var(--wt), 0.8rem, 500);
+            background: #217821;
+            border-radius: 5px;
+            padding: 10px 4vh;
+
+        }
+    }
+    
+}

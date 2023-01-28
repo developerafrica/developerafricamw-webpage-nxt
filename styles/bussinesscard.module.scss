@@ -1,0 +1,39 @@
+
+@mixin fnt($c,$s,$w){
+    color: $c;
+    font-size: $s;
+    font-weight: $w;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bussinesscard{
+    background: url("/wave.png");
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.092) 0 4px 4px 4 px;
+    margin: 5vh 0;
+
+    .bcrd{
+        header{
+            padding: 10px 0;
+        }
+        main{
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            .info{
+                section:nth-child(1){
+                    text-align: start;
+                    border-left: var(--gn) 1px solid;
+                    padding-left: 10px;
+                    margin: 16px 0;
+                    h2{
+                        a{
+                            @include fnt(var(--tc), 0.7rem, 450)
+                        }
+                    }
+
+                }
+                
+            }
+        }
+    }
+}

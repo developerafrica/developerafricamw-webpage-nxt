@@ -1,4 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
+    /* custom */
+    --tc: black;
+    --wt: white;
+    --gn: #113411;
+    /* react */
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',

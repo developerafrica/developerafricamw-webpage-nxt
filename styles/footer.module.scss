@@ -1,0 +1,48 @@
+@mixin fnt($c,$s,$w){
+    color: $c;
+    font-size: $s;
+    font-weight: $w;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    padding: 10px;
+    .ft{
+        padding: 20px;
+        background-color: #fefefe;
+        header{
+            h1{
+                display: grid;
+                place-items:center;
+            }
+        }
+        main{
+            padding: 10vh 0;
+            ol{
+                padding: 10px 0;
+                margin: 3vh 0;
+                background-color: rgba(128, 128, 128, 0.141);
+                li{
+
+                    padding: 5px 10px;
+                    a{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px 0;
+                    }
+                }
+            }
+            ul{
+                padding: 5vh 0;
+                h1{
+                    @include fnt(var(--tc), 0.75rem, 800)
+                }
+                li{
+                    a{
+                        @include fnt(var(--tc), 0.75rem, 500)
+                    }
+                }
+            }
+        }
+    }
+}
