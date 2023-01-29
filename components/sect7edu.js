@@ -52,8 +52,8 @@ export default function sectionseven() {
                             src="/edu.png"
                             alt="people "
                             className="eduimage"
-                            width={200}
-                            height={200}
+                            width={180}
+                            height={180}
                         />
                     
                 </div>

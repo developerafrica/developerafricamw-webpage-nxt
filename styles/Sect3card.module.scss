@@ -16,12 +16,12 @@
             text-align: start;
             padding: 15px 10px;
             h1{
-                @include fnt(var(--tc),  0.87rem, 500);
-                letter-spacing: 1.1px;
+                @include fnt(var(--tc),  0.8rem, 500);
+                letter-spacing: 1.09px;
                 padding: 5px 0;
             }
             p{
-                @include fnt(var(--tc),  0.8rem, 500);
+                @include fnt(var(--tc),  0.71rem, 500);
             }
         }
         footer{
@@ -33,7 +33,7 @@
                 border: var(--gn) 1px solid;
                 border-radius: 5px;
                 padding: 7px 13px;
-                @include fnt(var(--tc),  0.8rem, 500);
+                @include fnt(var(--tc),  0.75rem, 500);
             }
             
         }

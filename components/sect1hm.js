@@ -18,7 +18,7 @@ export default function sectionone() {
             </div>
             <div className={styles.text}>
                 <h1>
-                    <span>BUILD CODE SOLUTIONS </span><span>FRO YOUR BUSINESS WITH</span><span>THE WORLDS TOP TALENT</span>
+                    <span>BUILD CODE SOLUTIONS </span><span>FOR YOUR BUSINESS WITH</span><span>THE WORLDS TOP TALENT</span>
                 </h1>
             </div>
             <div className={styles.link}>

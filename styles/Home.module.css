@@ -22,6 +22,7 @@
 .heading h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 470;
+  font-size: 0.75rem;
   color: black;
   letter-spacing: 1.2px;
 
@@ -87,16 +88,16 @@
 
 .center {
   position: relative;
-  padding: 4rem 0;
+  padding: 0 0 4rem 0;
 }
 
-/* .center::before {
-  background: var(--secondary-glow);
+.center::before {
+  background: var(--primary-glow);
   border-radius: 50%;
-  width: 480px;
-  height: 360px;
+  width: 300px;
+  height: 300px;
   margin-left: -400px;
-} */
+}
 
 .center::after {
   background: var(--primary-glow);
@@ -148,7 +149,7 @@
   }
 
   .center {
-    padding: 8rem 0 6rem;
+    padding: 4.5rem 0 6rem;
   }
 
   .center::before {

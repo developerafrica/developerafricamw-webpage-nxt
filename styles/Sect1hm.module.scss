@@ -22,13 +22,13 @@
                 padding-left: 20px;
                 display: flex;
                 text-align: start;
-                @include fnt(var(--tc), 0.9rem, 450);
+                @include fnt(var(--tc), 0.8rem, 450);
                 flex-direction: column;
             }
         }
         .link{
             text-align: center;
-            padding: 10px 0;
+            padding: 10px 0 10vh 0;
             a{
                 display: block;
                 background-color: #114311;
