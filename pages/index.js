@@ -54,7 +54,31 @@ export default function Home() {
             description={"mobile ride hailing app charging and swaping services"}
             link={"https://"}
             github={"https://"}
+            image={"/pro.png"}
+            className={styles.card}
+           />
+          <SectionThreeCard
+            name={"tiwelenge"}
+            description={"mobile ride hailing app charging and swaping services"}
+            link={"https://"}
+            github={"https://"}
             image={"/pro1.png"}
+            className={styles.card}
+           />
+          <SectionThreeCard
+            name={"tiwelenge"}
+            description={"mobile ride hailing app charging and swaping services"}
+            link={"https://"}
+            github={"https://"}
+            image={"/pro6.png"}
+            className={styles.card}
+           />
+          <SectionThreeCard
+            name={"tiwelenge"}
+            description={"mobile ride hailing app charging and swaping services"}
+            link={"https://"}
+            github={"https://"}
+            image={"/pro5.png"}
             className={styles.card}
            />
           <SectionThreeCard
