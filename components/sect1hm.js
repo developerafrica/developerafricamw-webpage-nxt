@@ -10,8 +10,8 @@ export default function sectionone() {
                     className={styles.logo}
                     src="/logo.png"
                     alt="developer africa logo"
-                    width={350}
-                    height={350}
+                    width={300}
+                    height={300}
                     priority
                 />
 
