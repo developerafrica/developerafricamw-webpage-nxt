@@ -7,7 +7,6 @@
 .footer{
     padding: 10px;
     .ft{
-        padding: 20px;
         background-color: #fefefe;
         header{
             h1{
@@ -44,6 +43,33 @@
                         @include fnt(var(--tc), 0.75rem, 500)
                     }
                 }
+            }
+        }
+        footer{
+            border: var(--gn) 1px solid ;
+            padding: 10px;
+            .head{
+                h1{
+                    text-align: center;
+                    @include fnt(var(--tc), 0.68rem, 500);
+                    padding: 10px;
+                    a{
+                        
+                        @include fnt(var(--gn), 0.71rem, 500);
+                    }
+                }
+            }
+            .bottom{
+                text-align: center;
+                a{
+                    @include fnt(var(--wt), 0.75rem, 450);
+                    display: block;
+                    background: var(--gn);
+                    padding: 15px;
+                    border-radius: 5px;
+
+                }
+
             }
         }
     }

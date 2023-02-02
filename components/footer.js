@@ -1,5 +1,5 @@
 import styles from "../styles/footer.module.scss"
-
+import BussinessCard from "./bussinesscard"
 export default function footer() {
   return (
     <article className={styles.footer}>
@@ -65,7 +65,17 @@ export default function footer() {
                     </ol>
                 </ul>
             </main>
-            <footer></footer>
+            <footer>
+                <div className={styles.head}>
+                    <h1>created with 🖤 by <a href="/author"> BUTAO PETER | DEVELOPER AFRICA MW</a></h1>
+                </div>
+                <div className={styles.center}>
+                    <BussinessCard />
+                </div>
+                <div className={styles.bottom}>
+                    <a href="/bussinesscard.png" download="developer africa mw | 2023 business card">DOWNLOAD OUR BUSINESSCARD &rarr;</a>
+                </div>
+            </footer>
         </div>
     </article>
   )
